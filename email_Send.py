@@ -34,9 +34,9 @@ print('Composing Email.................')
 
 SERVER = 'smtp.gmail.com'
 port_number = 587
-from_add = 'kumaracads@gmail.com'
-to_add = 'maruthi.tiruvaipati.21033@iitgoa.ac.in'
-password = ''
+from_add = 'sender_emailaddress'
+to_add = 'receiver_email_address'
+password = 'password_of_the_sender'
 
 
 body_of_mail = MIMEMultipart()
